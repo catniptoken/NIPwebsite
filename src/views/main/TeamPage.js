@@ -1,0 +1,53 @@
+import React from "react";
+
+// reactstrap components
+// import {
+// } from "reactstrap";
+
+// core components
+import TeamNavbar from "components/Navbars/TeamNavbar.js";
+import TeamHeader from "components/Headers/TeamHeader.js";
+
+
+
+
+function TeamPage() {
+  React.useEffect(() => {
+    document.body.classList.add("index-page");
+    document.body.classList.add("sidebar-collapse");
+    document.documentElement.classList.remove("nav-open");
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    return function cleanup() {
+      document.body.classList.remove("index-page");
+      document.body.classList.remove("sidebar-collapse");
+    };
+  });
+  return (
+    <>
+      <TeamNavbar />
+      <div className="wrapper">
+        <TeamHeader />
+        <div className="main">
+          {/* <Images /> */}
+          {/* <BasicElements /> */}
+          {/* <Navbars /> */}
+          {/* <Tabs /> */}
+          {/* <Pagination /> */}
+          {/* <Notifications /> */}
+          {/* <Typography /> */}
+          {/* <Javascript /> */}
+          {/* <Carousel /> */}
+          {/* <NucleoIcons /> */}
+          {/* <CompleteExamples /> */}
+          {/* <SignUp /> */}
+          {/* <Examples /> */}
+          {/* <Download /> */}
+        </div>
+        {/* <DarkFooter /> */}
+      </div>
+    </>
+  );
+}
+
+export default TeamPage;

@@ -1,0 +1,27 @@
+
+
+
+
+
+.titleForInformation {
+
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px #2df1f8;
+    
+
+}
+
+
+
+.informationText{
+
+    margin-top: 2%;
+
+    font-weight: bold;
+    color: white;
+    font-family: 'Quicksand', sans-serif!important;
+
+    text-shadow: 1px 1px #555151;
+
+}
